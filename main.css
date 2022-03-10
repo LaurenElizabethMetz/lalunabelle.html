@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+h1{
+	font-size: 60px;
+	font-family:'Playfair Display SC', serif;
+	font-weight: 400;
+	text-align: center;
+	padding-top:20px;
+}
+h2{
+	text-align:center;
+	font-size:30px;
+	font-family:'Marck Script', cursive;
+}
+body{
+	background-image:url("../html2/Hexagonal-paper.jpg");
+	background-size:500px;
+}
+nav{
+	text-align: center;
+	width: 100%;
+	background-color:#FFFFFF
+}
+nav ul{
+	Margin:20;
+	padding:20px;
+}
+nav li{
+	display: inline;
+}
+nav a:link{
+	color:#176035
+}
+#wrapper{
+	width:800px;
+	margin:0 auto;
+	background-color:#F7A192;
+}
+article.right{
+	padding:20px;
+	margin:20px;
+}
+article.left{
+	float:left;
+	width: 400px;
+	padding:20px;
+	margin:20px;
+	align-content: center;
+}
+footer{
+	background-color: #FCFCFC;
+	color:#F7A192;
+}
+form{
+	text-align:center;
+	background:#003412;
+	color: antiquewhite;
+	padding:20px;
+}
